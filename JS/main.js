@@ -75,12 +75,12 @@ window.addEventListener("scroll", () => {
 function switchTheme() {
     let darkMode = document.getElementById("dark-mode");
     let theme = document.getElementById("theme");
-    if (theme.getAttribute("href") == "Style/lightmode.css") {
-        theme.href = "Style/darkmode.css";
-        darkMode.innerHTML = `<i class='bx bxs-sun'></i>`;
-    } else {
+    if (theme.getAttribute("href") == "Style/darkmode.css") {
         theme.href = "Style/lightmode.css";
         darkMode.innerHTML = `<i class='bx bxs-moon'></i>`;
+    } else {
+        theme.href = "Style/darkmode.css";
+        darkMode.innerHTML = `<i class='bx bxs-sun'></i>`;
     }
 }
 
