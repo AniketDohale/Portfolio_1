@@ -340,6 +340,7 @@ header {
     font-size: 1.6rem;
     font-weight: 600;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .project-overlay .bx {
